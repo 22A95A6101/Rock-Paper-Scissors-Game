@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light text-center">
+    <div class="container mt-5">
+        <h1 class="mb-4">Rock Paper Scissors</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="card choice" id="rock">
+                    <img src="rock.png" class="card-img-top" alt="Rock">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card choice" id="paper">
+                    <img src="paper.png" class="card-img-top" alt="Paper">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card choice" id="scissors">
+                    <img src="scissors.png" class="card-img-top" alt="Scissors">
+                </div>
+            </div>
+        </div>
+        <div class="result mt-4">
+            <p id="result-text" class="h4">Choose your weapon!</p>
+            <img id="computer-choice" src="" class="d-none mt-3" alt="Computer's Choice">
+            <p id="score" class="h5 mt-3">Player: 0 - Computer: 0</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

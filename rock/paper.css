@@ -1,0 +1,13 @@
+.choice {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.choice:hover {
+    transform: scale(1.05);
+}
+
+#computer-choice {
+    width: 100px;
+    height: 100px;
+}
